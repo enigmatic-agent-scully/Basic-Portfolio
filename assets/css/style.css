@@ -1,16 +1,21 @@
 
-.headerbox {
-    background-color: grey;
-    width: 960px;
-    flex-wrap: wrap;
+body {
+    
+}
+
+header {
+
 }
 h1 {
-    background-color: rgb(252, 149, 252);
-    color: black;
-    width: 50px;
-    justify-content: center;
+  
 }
-nav {
-    background-color: pink;
-    justify-content: end;
+.links {
+
+}
+
+.aboutmebox {
+    
+}
+#myface {
+    
 }
