@@ -1,9 +1,16 @@
+
+.headerbox {
+    background-color: grey;
+    width: 960px;
+    flex-wrap: wrap;
+}
 h1 {
     background-color: rgb(252, 149, 252);
     color: black;
-    width: 960px;
+    width: 50px;
+    justify-content: center;
 }
-.headerbox {
-    background-color: grey;
-
+nav {
+    background-color: pink;
+    justify-content: end;
 }
