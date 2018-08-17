@@ -1,21 +1,71 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    
+  padding: 0;
+  margin: 0;
+  background: #efeee7;
 }
 
 header {
-
+  background: #ffffff;
+  height:60px;
+  float:none;
+  margin:0;
+  border-bottom:#cccc 2px solid;
 }
+
 h1 {
-  
-}
-.links {
+  float:left;
+  margin: 0px 50px 0px 50px;
+  padding: 15px 20px;
+  font-size: 25px;
+  color: #eee;
+  border-bottom: #cccc 2px solid;
+  background-color:#4aaaa5;
+  height:60px;
 
 }
+ul {
+  list-style-type: none;
+  overflow:hidden;
+  margin-right: 50px;
 
+}
+li a {
+    float:right;
+    display:inline-block;
+    padding: 20px;
+    background-color:white;
+    text-decoration: none;
+}
+
+section.clear{ 
+    clear:both;
+}
 .aboutmebox {
-    
+  float:none;
+  margin: 50px;
+  border: 1px black solid;
+  height:
 }
-#myface {
-    
+
+#main-bio,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  margin-right: 20px;
 }
