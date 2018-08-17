@@ -8,16 +8,16 @@ body {
   padding: 0;
   margin: 0;
   background: #efeee7;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 header {
   background: #ffffff;
   height:60px;
   float:none;
   margin:0;
   border-bottom:#cccc 2px solid;
+  font-family: 'Georgia', Times, Times, serif;
 }
-
 h1 {
   float:left;
   margin: 0px 50px 0px 50px;
@@ -27,13 +27,11 @@ h1 {
   border-bottom: #cccc 2px solid;
   background-color:#4aaaa5;
   height:60px;
-
 }
 ul {
   list-style-type: none;
   overflow:hidden;
   margin-right: 50px;
-
 }
 li a {
     float:right;
@@ -42,30 +40,27 @@ li a {
     background-color:white;
     text-decoration: none;
 }
-
 section.clear{ 
     clear:both;
 }
 .aboutmebox {
   float:none;
-  margin: 50px;
+  margin: 20px 50px;
   border: 1px black solid;
-  height:
+  height: 100%;
 }
-
-#main-bio,
+.clearfix::after {
+  content: "";
+  display:block;
+  clear:both;
+}
+.main-bio {
+  padding: 10px;
+}
 #bio-image {
   float: left;
+  margin: 10px;
 }
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  margin-right: 20px;
+p {
+  padding: 10px 10px 0px;
 }
