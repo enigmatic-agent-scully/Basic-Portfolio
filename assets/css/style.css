@@ -70,6 +70,14 @@ h2 {
   border-bottom: 1px #cccc solid;
   margin: 0px 10px;
 }
+img {
+  float:left;
+  margin: 10px;
+}
+p {
+  padding: 11px;
+  font-size: 13px;
+}
 .work {
   margin: 10px;
   float: left;
