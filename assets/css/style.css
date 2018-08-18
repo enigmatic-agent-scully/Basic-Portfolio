@@ -74,14 +74,14 @@ h2 {
   margin: 10px;
   float: left;
   text-decoration: none;
-  background-image: url(/assets/images/290x250.png);
-
+  background-image: url(/assets/images/240x180.png);
+  background-repeat:none;
 }
 h3 {
   font-size: 16px;
   line-height: 2;
-  margin:150px 0px 50px 0px;
-  padding: 10px 100px;
+  margin:110px 0px 20px 0px;
+  padding: 10px 75px;
   background-color: #4aaaa5;
   color:white;
   font-family: Georgia, 'Times New Roman', Times, serif;
