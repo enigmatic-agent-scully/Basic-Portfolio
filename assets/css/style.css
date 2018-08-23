@@ -75,8 +75,10 @@ img {
   margin: 10px;
 }
 p {
-  padding: 11px;
+  padding: 5px;
   font-size: 13px;
+  color: #b1b1b1;
+  line-height:1.5;
 }
 .work {
   margin: 10px;
@@ -131,4 +133,13 @@ input[type="submit"] {
   background-color: #4aaaa5;
   color: white;
   border: none;
+}
+.footer {
+  background-color: #666;
+  text-align:center;
+  color:#ccc;
+  font-size:12px;
+  height:50px;
+  padding:30px 0;
+  border-top: #4aaaa5 6px solid;
 }
