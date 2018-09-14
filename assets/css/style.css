@@ -58,7 +58,7 @@ section.clear{
   display:block;
   clear:both;
 }
-.main {
+.main-bio {
   padding: 10px;
 }
 h2 {
@@ -84,14 +84,20 @@ p {
   margin: 10px;
   float: left;
   text-decoration: none;
-  background-image: url(/assets/images/240x180.png);
+  height: 230px;
+  width: 240px;
+  background-image: url(https://via.placeholder.com/240x230);
   background-repeat:none;
+}
+#rupees {
+  background-image: url(../images/rupeeCollector.png)
 }
 h3 {
   font-size: 16px;
+  text-align: center;
   line-height: 2;
-  margin:110px 0px 20px 0px;
-  padding: 10px 75px;
+  margin:140px 0px 20px 0px;
+  padding: 10px ;
   background-color: #4aaaa5;
   color:white;
   font-family: Georgia, 'Times New Roman', Times, serif;
