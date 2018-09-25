@@ -92,6 +92,9 @@ p {
 #rupees {
   background-image: url(../images/rupeeCollector.png)
 }
+#giphy {
+  background-image: url(../images/giphy.png)
+}
 h3 {
   font-size: 16px;
   text-align: center;
