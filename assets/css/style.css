@@ -95,6 +95,9 @@ p {
 #giphy {
   background-image: url(../images/giphy.png)
 }
+#choochoo {
+  background-image: url(../images/traintime.png);
+}
 h3 {
   font-size: 16px;
   text-align: center;
@@ -107,7 +110,6 @@ h3 {
 }
 .contactme {
   padding: 10px;
-  
 }
 #name, #email {
   width: 100%;
