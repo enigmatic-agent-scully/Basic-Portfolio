@@ -6,7 +6,7 @@ $("#submit").click(function () {
   var message = $("#message").val();
   console.log(name, subject, message);
 
-  var mailTo = `mailto:amanda.elisabet.jordan@gmail.com?subject=${subject}&body=${message}
+  var mailTo = `mailto:aj@ajjordan.co?subject=${subject}&body=${message}
 
   from: ${name}`
 
